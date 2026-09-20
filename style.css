@@ -393,6 +393,27 @@ h3 {
 .service-list li::marker {
     color: #f9e4c5;
 }
+
+.service-list a,
+.service-list a:visited {
+    color: #f8ba57;
+    text-decoration: none;
+}
+
+.service-list a:hover {
+    color: #f8ba57;
+    text-decoration: underline;
+}
+
+.course-list {
+    margin-top: 4px;
+    text-align: left;
+}
+
+.course-item {
+    display: block;
+    margin-bottom: 3px;
+}
 /* ========================================
    FOOTER
    ======================================== */
