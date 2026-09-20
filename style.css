@@ -116,7 +116,7 @@ h3 {
 } */
 
 .hero {
-    padding: 100px 0 70px;
+    padding: 80px 0 70px;
     /* background: #f7f7f7;*/
     background: #6c8ca8
 }
@@ -343,7 +343,7 @@ h3 {
 .service-list li {
     margin-bottom: 5px;
     padding-left: 3px;
-    color: #425669;
+    color: #f9e4c5;
 }
 
 .service-list li::marker {
