@@ -379,9 +379,14 @@ h4 {
 /* ========================================
    SERVICE
    ======================================== */
-.service-section {
-    padding: 10px 0 20px;
+#service {
     background-color: #6c8ca8;
+    padding: 10px 0 20px;
+}
+
+.service-section {
+    padding: 0;
+    background-color: transparent;
 }
 
 .service-list {
