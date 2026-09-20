@@ -90,13 +90,14 @@ h2 {
     color: #6c8ca8;
 }
 
+#service h2 {
+    color: #f9e4c5;
+}
+
+
 h3 {
     margin-bottom: 10px;
     color: #6c8ca8;
-}
-
-#service h3 {
-    color: #f9e4c5;
 }
 
 h4 {
