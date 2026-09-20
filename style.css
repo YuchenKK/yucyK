@@ -348,16 +348,29 @@ h3 {
 }
 
 .contact-links a,
-.contact-links a:visited {
+/* .contact-links a:visited {
     color: #6c8ca8;
     font-size: 2rem;
+    text-decoration: none;
+} */
+.contact-links a:visited,
+.contact-links a:hover {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 1;
+    
+    color: #6c8ca8;
     text-decoration: none;
 }
 
 .contact-links a:hover {
     color: #6c8ca8;
 }
-
 /* ========================================
    SERVICE
    ======================================== */
