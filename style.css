@@ -321,15 +321,35 @@ h3 {
    CONTACT
    ======================================== */
 
-.contact-links {
+/* .contact-links {
     margin-top: 20px;
 }
 
 .contact-links a {
     margin-right: 20px;
     color: #333;
+} */
+
+.contact-links {
+    display: flex;
+    gap: 22px;
+    align-items: center;
 }
 
+.contact-links a,
+.contact-links a:visited {
+    color: #6c8ca8;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: #6c8ca8;
+}
+
+/* ========================================
+   SERVICE
+   ======================================== */
 .service-section {
     padding: 100px 0 80px;
     background-color: #6c8ca8;
